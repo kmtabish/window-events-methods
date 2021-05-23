@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+        <script>
+            function onloaded(){
+                var status = document.getElementById('status');
+                var loader = document.getElementById('loader')
+                status.innerText = "Application Loaded";
+                loader.style.display='none'
+            }
+            window.onload = onloaded;
+        </script>
+        <title>Window Onload | KMT</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">JS Window Onload Demo</a>
+            <span class="navbar-text">
+                by: <a href="https://twitter.com/kmtabish">@kmtabish</a>
+            </span>
+          </nav>
+        <div class="jumbotron">
+            <div style="text-align: center;">
+                <img src="https://images.pexels.com/photos/7974362/pexels-photo-7974362.jpeg" width="300px" height="400px"/>
+                <img src="https://images.pexels.com/photos/2377915/pexels-photo-2377915.jpeg" width="300px" height="400px"/>
+                <img src="https://images.pexels.com/photos/3626589/pexels-photo-3626589.jpeg" width="300px" height="400px"/>
+                <h1 class="display-6" id="status">Loading in progress...</h1>
+            </div>
+        </div>
+    </body>
+    
+</html>
