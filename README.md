@@ -1,5 +1,3 @@
-**
-
 # Window Events
 
 It consist the number of window events
